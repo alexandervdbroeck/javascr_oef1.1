@@ -1,10 +1,19 @@
+$(function () {
+    $("form").submit(function(){
+        return checkFormFields();
+    });
+})
+
+
+
 function checkFormFields() {
-   const voornaam = document.getElementById("voornaam").value.length;
-   const naam  = document.getElementById("naam").value.length;
+   const voornaam = $('#voornaam').val().length;
+   console.log(voornaam)
+   const naam  = $('#naam').val().length;
+   
    if (voornaam  < 2 || naam < 2)
    {
-       document.getElementById('paragraaf').style.display = "block";
-       document.getElementById('paragraaf').innerHTML = 'uw naam moet langer dan twee tekens zijn ';
+       $("#paragraaf").html("uw naam moet langer dan twee tekens zijn").show();
        return false
    }
    else
@@ -16,10 +25,9 @@ function checkFormFields() {
 
 function getInputValue(){
 
-    var inputVal = document.getElementById("number").value;
+    var inputVal = $("#number").val();
     persons  = parseInt(inputVal)
     persons += 1;
-    document.getElementById('paragraaf').style.display = "block";
-    document.getElementById('paragraaf').innerHTML = 'u schreef u in voor : ' + persons + '  personen';
+    $("#paragraaf").html(`u bent ingeschreven voor : ${persons}  personen`).show()
 
 }

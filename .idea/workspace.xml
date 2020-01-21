@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c37de8d3-003a-4e5b-8a75-aa788f269f5c" name="Default Changelist" comment="" />
+    <list default="true" id="c37de8d3-003a-4e5b-8a75-aa788f269f5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jguery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inschrijving.html" beforeDir="false" afterPath="$PROJECT_DIR$/inschrijving.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inschrijving.js" beforeDir="false" afterPath="$PROJECT_DIR$/inschrijving.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +25,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WNvbHWskuiQmo7dRddc2UJy4OF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,19 +65,34 @@
       <updated>1579003108364</updated>
       <workItem from="1579003112231" duration="42000" />
       <workItem from="1579003175815" duration="4901000" />
-      <workItem from="1579032819579" duration="1955000" />
+      <workItem from="1579032819579" duration="3068000" />
+      <workItem from="1579610723344" duration="314000" />
+      <workItem from="1579611668238" duration="3252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/inschrijving.js</url>
-          <properties lambdaOrdinal="-1" />
+          <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
